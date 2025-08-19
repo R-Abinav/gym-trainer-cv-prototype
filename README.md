@@ -1,15 +1,7 @@
-Of course! That's an excellent and very practical piece of information to include for troubleshooting.
-
-Here is the complete, updated `README.md` file with the new note added to the "How to Run" section.
-
----
-
-# README.md
+\# Smart Gym: Your AI Personal Trainer
 
 > **Course:** Smart Product Design  
 > **Course Code:** DS2001
-
-# Smart Gym: Your AI Personal Trainer
 
 This project is a computer vision-based prototype designed to address the challenge of making fitness more accessible, intelligent, and portable. It transforms a standard webcam into a personal trainer that can guide users through various exercises, count repetitions, and provide real-time form feedback.
 
