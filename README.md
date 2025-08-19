@@ -1,7 +1,15 @@
-# Smart Gym: Your AI Personal Trainer (Prototype)
+Of course! That's an excellent and very practical piece of information to include for troubleshooting.
+
+Here is the complete, updated `README.md` file with the new note added to the "How to Run" section.
+
+---
+
+# README.md
 
 > **Course:** Smart Product Design  
 > **Course Code:** DS2001
+
+# Smart Gym: Your AI Personal Trainer
 
 This project is a computer vision-based prototype designed to address the challenge of making fitness more accessible, intelligent, and portable. It transforms a standard webcam into a personal trainer that can guide users through various exercises, count repetitions, and provide real-time form feedback.
 
@@ -11,7 +19,7 @@ This project is a computer vision-based prototype designed to address the challe
 
 ## Problem Statement
 
-The goal is to develop a "Smart Gym" that brings intelligent and effective workout solutions into the home. Traditional gym memberships can be expensive, and home equipment is often bulky and lacks guided instruction. This creates a barrier for many people seeking to maintain a healthy lifestyle. Our solution aims to bridge this gap by providing an accessible, data-driven, and interactive fitness experience using just a computer and a webcam.
+The goal is to develop a "Smart Gym" that brings intelligent and effective workout solutions into the home. Traditional gym memberships can be expensive, and home equipment is often often bulky and lacks guided instruction. This creates a barrier for many people seeking to maintain a healthy lifestyle. Our solution aims to bridge this gap by providing an accessible, data-driven, and interactive fitness experience using just a computer and a webcam.
 
 ## Our Solution: A Computer Vision Prototype
 
@@ -55,6 +63,19 @@ The primary entry point for the project is `final.py`, which launches the main G
     python final.py
     ```
 4.  Use the graphical interface to choose an exercise, adjust your settings, and start your workout!
+
+> ### **Troubleshooting Note**
+>
+> If you encounter issues with the camera not opening or freezing when using the main application (`final.py`), this can sometimes be caused by conflicts between Tkinter's main loop and OpenCV's video stream.
+>
+> As a reliable alternative, you can run the **standalone exercise modules directly**. These files are fully-featured and provide the same workout experience without the main GUI.
+>
+> For example, to start a specific workout, run one of the following commands:
+>
+> ```bash
+> # For Bicep Curls (inside the Pose-Detection folder)
+> python Bicep-curl.py
+> ```
 
 ---
 
